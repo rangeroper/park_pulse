@@ -1,0 +1,107 @@
+[
+  {
+    "type": "wolf",
+    "species": "Gray Wolf",
+    "coordinates": {
+      "lat": 44.865833,
+      "lng": -111.120375
+    },
+    "reporterId": "user3",
+    "description": "",
+    "threatLevel": "medium",
+    "verified": false,
+    "images": [],
+    "id": "1750030744667",
+    "timestamp": "2025-06-15T23:39:04.667Z"
+  },
+  {
+    "type": "elk",
+    "species": "Rocky Mountain Elk",
+    "coordinates": {
+      "lat": 44.600833,
+      "lng": -110.095
+    },
+    "reporterId": "user5",
+    "description": "",
+    "threatLevel": "low",
+    "verified": false,
+    "images": [],
+    "id": "1750030708734",
+    "timestamp": "2025-06-15T23:38:28.734Z"
+  },
+  {
+    "id": "1",
+    "type": "bear",
+    "species": "Grizzly Bear",
+    "coordinates": {
+      "lat": 44.428,
+      "lng": -110.5885
+    },
+    "timestamp": "2024-12-15T17:41:43.000Z",
+    "reporterId": "user1",
+    "description": "Large grizzly bear spotted near hiking trail",
+    "threatLevel": "high",
+    "verified": true,
+    "images": []
+  },
+  {
+    "id": "2",
+    "type": "wolf",
+    "species": "Gray Wolf",
+    "coordinates": {
+      "lat": 44.5994,
+      "lng": -110.5472
+    },
+    "timestamp": "2024-12-15T16:41:43.000Z",
+    "reporterId": "user2",
+    "description": "Pack of 3 wolves observed hunting",
+    "threatLevel": "medium",
+    "verified": true,
+    "images": []
+  },
+  {
+    "id": "3",
+    "type": "rare",
+    "species": "Canada Lynx",
+    "coordinates": {
+      "lat": 44.7291,
+      "lng": -110.0584
+    },
+    "timestamp": "2024-12-15T15:41:43.000Z",
+    "reporterId": "user3",
+    "description": "Rare Canada Lynx sighting in daylight",
+    "threatLevel": "high",
+    "verified": false,
+    "images": []
+  },
+  {
+    "id": "4",
+    "type": "bison",
+    "species": "American Bison",
+    "coordinates": {
+      "lat": 44.8652,
+      "lng": -110.6808
+    },
+    "timestamp": "2024-12-15T14:41:43.000Z",
+    "reporterId": "user1",
+    "description": "Large herd of bison grazing in Lamar Valley",
+    "threatLevel": "low",
+    "verified": true,
+    "images": []
+  },
+  {
+    "id": "5",
+    "type": "bison",
+    "species": "American Bison",
+    "coordinates": {
+      "lat": 44.628,
+      "lng": -110.2885
+    },
+    "timestamp": "2024-12-15T13:41:43.000Z",
+    "reporterId": "user2",
+    "description": "Bison spotted near the river.",
+    "threatLevel": "low",
+    "verified": true,
+    "images": []
+  }
+]

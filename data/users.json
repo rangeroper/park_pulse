@@ -1,0 +1,52 @@
+[
+  {
+    "id": "user1",
+    "name": "Sarah Johnson",
+    "username": "wildlifewatcher",
+    "avatar": "🧑‍🔬",
+    "joinDate": "2024-01-15",
+    "sightingsCount": 23,
+    "verified": true,
+    "bio": "Wildlife biologist and nature enthusiast"
+  },
+  {
+    "id": "user2",
+    "name": "Mike Chen",
+    "username": "trailrunner",
+    "avatar": "🏃‍♂️",
+    "joinDate": "2024-02-20",
+    "sightingsCount": 15,
+    "verified": true,
+    "bio": "Trail runner and outdoor photographer"
+  },
+  {
+    "id": "user3",
+    "name": "Emma Davis",
+    "username": "naturelover",
+    "avatar": "🌲",
+    "joinDate": "2024-03-10",
+    "sightingsCount": 8,
+    "verified": false,
+    "bio": "Hiking enthusiast and wildlife observer"
+  },
+  {
+    "id": "user4",
+    "name": "Alex Rivera",
+    "username": "mountainguide",
+    "avatar": "🏔️",
+    "joinDate": "2024-01-05",
+    "sightingsCount": 31,
+    "verified": true,
+    "bio": "Professional mountain guide and wildlife tracker"
+  },
+  {
+    "id": "user5",
+    "name": "Jordan Park",
+    "username": "forestexplorer",
+    "avatar": "🌿",
+    "joinDate": "2024-02-28",
+    "sightingsCount": 12,
+    "verified": false,
+    "bio": "Forest conservation volunteer and amateur photographer"
+  }
+]
