@@ -1,7 +1,7 @@
 {
-  "buildCommand": "npm ci --legacy-peer-deps && npm run build",
-  "installCommand": "npm ci --legacy-peer-deps",
   "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "installCommand": "npm ci --legacy-peer-deps",
   "rewrites": [
     {
       "source": "/api/(.*)",

@@ -1,8 +1,8 @@
 "use client"
 
 import { useState, useRef } from "react"
-import { Card } from "@/components/ui/card"
-import type { Sighting } from "@/types/wildlife"
+import { Card } from "./ui/card"
+import type { Sighting } from "../types/wildlife"
 
 interface WildlifeMapProps {
   sightings: Sighting[]

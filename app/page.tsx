@@ -1,17 +1,17 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { IsometricYellowstoneMap } from "@/components/isometric-yellowstone-map"
-import { YellowstoneSightingForm } from "@/components/yellowstone-sighting-form"
-import { UserProfile } from "@/components/user-profile"
-import { SightingDetails } from "@/components/sighting-details"
-import { Button } from "@/components/ui/button"
-import { Card } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { Input } from "@/components/ui/input"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import { IsometricYellowstoneMap } from "../components/isometric-yellowstone-map"
+import { YellowstoneSightingForm } from "../components/yellowstone-sighting-form"
+import { UserProfile } from "../components/user-profile"
+import { SightingDetails } from "../components/sighting-details"
+import { Button } from "../components/ui/button"
+import { Card } from "../components/ui/card"
+import { Badge } from "../components/ui/badge"
+import { Input } from "../components/ui/input"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../components/ui/select"
 import { MapPin, Plus, TrendingUp, Shield, RefreshCw, Search, Filter, Bell, Download, Share2 } from "lucide-react"
-import type { Sighting, User } from "@/types/wildlife"
+import type { Sighting, User } from "../types/wildlife"
 
 export default function WildlifeTracker() {
   const [sightings, setSightings] = useState<Sighting[]>([])

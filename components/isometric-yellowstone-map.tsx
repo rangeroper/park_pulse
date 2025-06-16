@@ -2,13 +2,13 @@
 
 import type React from "react"
 import { useState, useRef, useCallback, useMemo } from "react"
-import { Card } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Switch } from "@/components/ui/switch"
-import { Label } from "@/components/ui/label"
-import { Slider } from "@/components/ui/slider"
+import { Card } from "./ui/card"
+import { Button } from "./ui/button"
+import { Switch } from "./ui/switch"
+import { Label } from "./ui/label"
+import { Slider } from "./ui/slider"
 import { ZoomIn, ZoomOut, RotateCcw, Layers, Thermometer } from "lucide-react"
-import type { Sighting, Coordinates } from "@/types/wildlife"
+import type { Sighting, Coordinates } from "../types/wildlife"
 
 interface IsometricYellowstoneMapProps {
   sightings: Sighting[]

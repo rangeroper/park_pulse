@@ -2,15 +2,15 @@
 
 import type React from "react"
 import { useState } from "react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { Textarea } from "@/components/ui/textarea"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Button } from "./ui/button"
+import { Input } from "./ui/input"
+import { Label } from "./ui/label"
+import { Textarea } from "./ui/textarea"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./ui/select"
+import { Card, CardContent, CardHeader, CardTitle } from "./ui/card"
 import { X, MapPin, Target } from "lucide-react"
 import { IsometricYellowstoneMap } from "./isometric-yellowstone-map"
-import type { Sighting, User, Coordinates } from "@/types/wildlife"
+import type { Sighting, User, Coordinates } from "../types/wildlife"
 
 interface YellowstoneSightingFormProps {
   users: User[]

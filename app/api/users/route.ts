@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server"
 import { promises as fs } from "fs"
 import path from "path"
-import type { User } from "@/types/wildlife"
+import type { User } from "../../../types/wildlife"
 
 const dataFilePath = path.join(process.cwd(), "data", "users.json")
 

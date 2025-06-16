@@ -1,10 +1,10 @@
 "use client"
 
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
+import { Button } from "./ui/button"
+import { Card, CardContent, CardHeader, CardTitle } from "./ui/card"
+import { Badge } from "./ui/badge"
 import { X, MapPin, Clock, User, Shield, CheckCircle, AlertTriangle } from "lucide-react"
-import type { Sighting, User as UserType } from "@/types/wildlife"
+import type { Sighting, User as UserType } from "../types/wildlife"
 
 interface SightingDetailsProps {
   sighting: Sighting

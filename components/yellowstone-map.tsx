@@ -3,10 +3,10 @@
 import type React from "react"
 
 import { useState, useRef, useCallback } from "react"
-import { Card } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
+import { Card } from "./ui/card"
+import { Button } from "./ui/button"
 import { ZoomIn, ZoomOut, RotateCcw } from "lucide-react"
-import type { Sighting, Coordinates } from "@/types/wildlife"
+import type { Sighting, Coordinates } from "../types/wildlife"
 
 interface YellowstoneMapProps {
   sightings: Sighting[]
